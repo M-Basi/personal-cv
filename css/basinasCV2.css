@@ -1,0 +1,284 @@
+:root {
+    --white: #f9f9f9;
+    --black: #36383f;
+    --grey: #85888c;
+    --lightblue: rgb(36, 166, 209);
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+html {   
+    scroll-behavior: smooth;
+   
+}
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.header {
+    background-color: black;
+    color: var(--white);    
+    padding-top: 40px;
+}
+
+.marging-down {
+    margin-bottom: 1.2rem;
+}
+
+
+.outer-cycle {
+    width: 120px;
+    height: 120px;
+    /* border-radius: 50%; */
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--grey);
+    border-radius: 50%;
+    
+      
+}
+
+.profil-photo img {
+    width: 120px;
+    height: auto;
+}
+
+.inner-cycle {
+    width: 110px;
+    height: 110px;
+    /* border-radius: 50%; */
+    border: 1px solid white;    
+    margin-top: 5px;
+    margin-left: 5px;
+    /* background-image: url(../img/19786.JPEG); */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    /* opacity: 0.5; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.name {
+    text-align: center;
+}
+
+header ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.social {
+    
+    text-align: center;
+}
+
+.social li {
+    display: inline; 
+}
+
+.social li i {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social li i:hover {
+    color: var(--lightblue);
+
+}
+
+.navbar ul {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.navbar ul li {
+    display: block;
+    list-style: none;
+    height: 60px;
+    margin-left: 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #85888c;
+}
+
+.navbar ul li a:hover {
+    color: var(--white);
+}
+
+
+.services::before {
+    content: '\1F6E0';
+    
+}
+
+
+
+
+main {
+    height: 100vh;
+    overflow: auto;      
+    scroll-behavior: smooth; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;    
+}
+
+
+
+.main-photo {    
+    height: 100vh;    
+    background-image: url(../img/Computer_Programmer1920X10180.jpg);
+    background-repeat: no-repeat;    /*μικρότερη εικόνα από το πλαίσιο δεν την επαναλαμβάνει*/
+    background-size: cover;   /*καλύπτει όλο το πλα΄σιο αν η εικόνα είναι μικρότερη*/
+    background-position: center;   /*κεντριζει την εικόνα*/
+    /* opacity: 0.5; */
+
+}
+
+
+
+.article-padding {
+    padding:1rem;
+    /* margin-top: 70px; */
+}
+
+.main-name, .main-name1{
+    width: 100%;
+    color: var(--white);
+    padding-left: 30px;
+    opacity: 0.8;
+}
+
+.line {
+    background-color: var(--lightblue);
+    height: 3px;
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+
+
+.profil-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+
+.personal-info {
+    display: grid;
+    grid-template-columns: repeat(2, 40% 60%);
+    grid-auto-rows: 400px;
+    
+}
+
+.small-photo img {
+    width: 350px;
+    height: auto;   
+}
+
+.small-photo {
+    overflow: hidden;
+}
+
+.color-lightblue {
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.p-infos {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-auto-rows: 50px;
+}
+
+
+.skills {
+    height: 100vh;
+    font-size: 0.8rem;
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.outer-skill {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+}
+
+.all-skills { 
+    width: 100%;    
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-auto-rows: 200px;
+    gap: 10px;
+    
+}
+
+.skills-1, .skills-2 {
+    
+    display: grid;
+    grid-template-columns: 100%;
+
+}
+
+.head-skills {
+    font-size: 1.4rem;
+}
+
+.java {
+    background-color: var(--lightblue);
+    height: 0.8rem ;
+    width: 80%;
+    line-height: 1rem;
+    text-align: end;
+    
+}
+
+
+
+.python {
+    background-color: var(--lightblue);
+    height: 0.8rem ;
+    width: 90%;
+    line-height: 1rem;
+    text-align: end;
+    
+}
+
+.html {    
+    background-color: var(--lightblue);
+    height: 0.8rem ;
+    width: 80%;
+    line-height: 1rem;
+    text-align: end;   
+}
+
