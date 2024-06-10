@@ -1,0 +1,66 @@
+:root {
+    --white: #f9f9f9;
+    --black: #36383f;
+    --grey: #85888c;
+    --lightblue: rgb(36, 166, 209);
+    --lightgray: #d3d3d3;
+}
+
+
+html {   
+    scroll-behavior: smooth;
+   
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;  
+    background-color: rgb(32, 30, 30);
+}
+
+.menu bi {
+    color: grey;
+    
+}
+
+
+.nav-link:hover {
+    .text1 {
+        color: var(--lightgray);
+    };
+    .bi {
+        color: blue;
+    };
+
+    .social-icon {
+        background-color: var(--lightblue)
+    }
+}
+
+
+.text1, .menu .fs-4 {
+    color: grey;
+}
+
+.line {
+    background-color: var(--lightblue);
+}
+
+.skill-div {
+    background-color: var(--lightblue);
+    height: 10px;
+
+}
+.external-skill-div {
+    background-color: var(--lightgray);
+    height: 10px;
+
+}
+
+
+
+
+
+
+
+
