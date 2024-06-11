@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <div class="row flex-nowrap">
             <header class="col-2 bg-black">
-                <div class="d-flex flex-column align-items-sm-start justify-content-between vh-100">
+                <div class="d-flex flex-column align-items-sm-start justify-content-between min-vh-100">
                     <div class="profile text-light container-fluid">
                         <div class="text-center">
                         <img src="./img/marbas.jpg" class="img-fluid rounded-circle border border-5 border-secondary my-3 ms-auto me-auto" alt="">
@@ -90,18 +90,18 @@
                             </article>
                         </div>
 
-                        <div class="card mb-3 border border-0">
-                            <div class="row">
-                              <div class="col-4 overflow-hidden">
+                        <div class="card mb-3 border border-0 navbar-expand-lg">
+                            <div class="d-flex flex-row flex-wrap">
+                              <div class="col-4">
                                 <img src="./img/19786.JPEG" class="img-fluid" style="height: 400px;" alt="...">
                               </div>
                               <div class="col-8">
-                                <div class="card-body">
-                                  <h5 class="card-title">UI/UX Designer & Web Developer.</h5>
+                                <div class="card-body ">
+                                  <h5 class="card-title ">UI/UX Designer & Web Developer.</h5>
                                   <div class="line col-5" style="height: 3px; ; "></div>
                                   <p class="card-text"><em>Personal Info</em></p>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo consequatur iure, consequuntur ut harum soluta ex saepe asperiores dignissimos explicabo, commodi dolorum vero vitae aliquid hic laboriosam doloribus officiis porro?</p>
-                                <div class="d-flex flex-row flex-nowrap justify-content-betweew">
+                                <div class="d-flex flex-row flex-wrap justify-content-betweew">
                                     <div class="d-flex flex-column col-5">
                                         <p><strong>&gt; Birthay: </strong> 30 Aug 1985</p>
                                         <p><strong>&gt; Age: </strong> 39</p>
@@ -121,15 +121,15 @@
 
                     </section>
                     
-                    <section class="d-flex flex-column py-3 px-3 vh-100 bg-light" id="skills">
-                        <div class="d-flex flex-column vh-100 ">
+                    <section class="d-flex flex-column py-3 px-3 min-vh-100 bg-light" id="skills">
+                        <div class="d-flex flex-column">
                           <h4 class="mt-4">Skills</h4>
                           <div class="line mb-3" style="height: 3px;"></div>
                           
                           <div class="d-flex flex-row flex-nowrap justify-content-around mt-3">
                             <h5 class="mt-3">IT Skills</h5>
                             <div class="col-5 d-flex flex-column">
-                                <div class="d-flex flex-row flex-nowrap justify-content-between mb-2">
+                                <div class="d-flex flex-row flex-wrap justify-content-between mb-2">
                                     <div class="text-start">Java</div>
                                     <div class="text-end ">60%</div>
                                 </div>
@@ -206,7 +206,7 @@
                     <section id="education" class="education min-vh-100 py-3 px-3">
                         <div class="container mt-4">
 
-                          <div class="d-flex flex-row">
+                          <div class="d-flex flex-row flex-wrap">
                             <div class="col-lg-6">
                               <div class="col-11">
                                 <h3 class="">Education</h3>
@@ -324,7 +324,7 @@
                               </div>
                               <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" name="message" rows="10" required></textarea>
+                                <textarea class="form-control" name="message" rows="8" required></textarea>
                               </div>
                               <div class="my-3">
                                
@@ -333,9 +333,18 @@
                               </div>
                             </form>
                           </div>
-                          
-                          
-
+                        </div>
+                        <div class="d-flex flex-row">
+                          <div class="col-auto d-flex flex-column">
+                            <div>Contact Info</div>
+                            <div class="line mb-3 col-5" style="height: 3px;"></div>
+                            <Address><i class="bi bi-geo-alt"></i> Gerakas , 
+                              Athens , P.C.  :15344
+                            </Address>
+                            <div><i class="bi bi-phone-vibrate"></i>
+                               +306947374605
+                              </div>                           
+                          </div>
                         </div>
                       </section>
 
