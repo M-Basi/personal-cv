@@ -84,7 +84,7 @@
 
             <main class="col px-0 py-0 overflow-auto vh-100">
                 <div class="d-flex flex-column">
-                    <div class="card border border-0 rounded-0 text-bg-dark vh-100 d-none d-lg-inline">
+                    <div class="card border border-0 rounded-0 text-bg-dark vh-100 d-none d-lg-inline position-sticky position-fixed top-0 start-50">
                         <img src="./img/Computer_Programmer1920X10180.jpg" class="card-img vh-100" alt="...">
                         <div class="card-img-overlay d-flex flex-column justify-content-center">
                           <h1 class="card-title">Marios Basinas</h1>
@@ -94,7 +94,7 @@
                     </div>
 
                     
-                    <section class="d-flex flex-column py-3 px-3 min-vh-100" id="about">
+                    <section class="d-flex flex-column py-3 px-3 min-vh-100 position-relative bg-light" id="about" >
                         <div>
                             <article>
                                 <h4 class="mt-4">About</h4>
@@ -137,7 +137,7 @@
 
                     </section>
                     
-                    <section class="d-flex flex-column py-3 px-3 min-vh-100 " id="skills">
+                    <section class="d-flex flex-column py-3 px-3 min-vh-100 position-relative bg-light" id="skills">
                         <div class="d-flex flex-column">
                           <h4 class="mt-4">Skills</h4>
                           <div class="line mb-3" style="height: 3px;"></div>
@@ -228,15 +228,17 @@
                     </section>
 
 <!-- ======= Resume Section ======= -->
-                    <section id="education" class="education min-vh-100 py-3 px-3">
+                    <section id="education" class="education min-vh-100 py-3 px-3 position-relative bg-light">
                         <div class="container mt-4">
 
                           <div class="d-flex flex-row flex-wrap">
                             <div class="col-lg-6">
                               <div class="col-11">
                                 <h3 class="">Education</h3>
-                                <div class="line mb-3" style="height: 3px;"></div>
-                                <div class="resume-item ">
+                                <div class="line mb-3 dashed col-3" style="height: 3px;"></div>
+                                
+                               
+                                <div class="resume-item">
                                   <h5>Aristotle University of Thessaloniki (AUTH)</h6>
                                   <h6>Oct 2003 - Jun 2007</h6>
                                   <p><em>Bachelor's degree, Banking, Corporate, Finance, and Securities Law</em></p>
@@ -274,13 +276,16 @@
                                     <li>Agile / DevOps</li>
                                   </ul>
                                 </div>
+                                
+                                
+
                               </div>
 
                             </div>
                             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                               <div class="col-11">
                                 <h3 class="resume-title">Professional Experience</h3>
-                                <div class="line mb-3" style="height: 3px;"></div>
+                                <div class="line mb-3 col-2" style="height: 3px;"></div>
                                 <div class="resume-item">
                                   <h5>Financial Director of Public Entity - AOOA Full-time</h5>
                                   <h6>Apr 2022 - Present</h6>
@@ -322,7 +327,7 @@
                         </div>
                       </section>
 
-                      <section id="contact" class="contact bg-light min-vh-100 py-3 px-3">
+                      <section id="contact" class="contact bg-light min-vh-100 py-3 px-3 position-relative bg-light">
                         <div class="container mt-4 d-flex flex-column">
                           <div class="mb-4">
                             <h3>Contact</h3>
